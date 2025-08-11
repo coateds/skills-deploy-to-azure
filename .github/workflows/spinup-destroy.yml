@@ -8,11 +8,11 @@ env:
   IMAGE_REGISTRY_URL: ghcr.io
   AZURE_RESOURCE_GROUP: cd-with-actions
   AZURE_APP_PLAN: actions-ttt-deployment
-  AZURE_LOCATION: '"West US"'
+  AZURE_LOCATION: '"West US 2"'
   ###############################################
   ### Replace <username> with GitHub username ###
   ###############################################
-  AZURE_WEBAPP_NAME: coateds@outlook.com-ttt-app
+  AZURE_WEBAPP_NAME: coateds-ttt-app
 
 jobs:
   setup-up-azure-resources:
